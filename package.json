@@ -12,7 +12,7 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "start": "nodemon app",
+    "start": "nodemon --watch app.js app ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
